@@ -33,7 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/samurai/proprietary/odm/etc/camera/config/oplus_camera_algo_switch_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_algo_switch_config \
     vendor/realme/samurai/proprietary/odm/etc/camera/config/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_aps_config \
     vendor/realme/samurai/proprietary/odm/etc/camera/config/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_config \
-    vendor/realme/samurai/proprietary/odm/etc/camera/config/ov02a1b:$(TARGET_COPY_OUT_ODM)/etc/camera/config/ov02a1b \
     vendor/realme/samurai/proprietary/odm/etc/camera/config/s5k3m5sx:$(TARGET_COPY_OUT_ODM)/etc/camera/config/s5k3m5sx \
     vendor/realme/samurai/proprietary/odm/etc/camera/config/s5kgw1:$(TARGET_COPY_OUT_ODM)/etc/camera/config/s5kgw1 \
     vendor/realme/samurai/proprietary/odm/etc/camera/config/video_beauty_default_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/video_beauty_default_config \
@@ -65,6 +64,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/samurai/proprietary/odm/lib/rfsa/adsp/libVDHexagonBlurless_v2_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libVDHexagonBlurless_v2_skel.so \
     vendor/realme/samurai/proprietary/odm/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so \
     vendor/realme/samurai/proprietary/odm/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_5221_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_5221_skel.so \
+    vendor/realme/samurai/proprietary/odm/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel.so \
+    vendor/realme/samurai/proprietary/odm/lib/rfsa/adsp/libarcsoft_portraitSN_hvx_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_portraitSN_hvx_skel.so \
     vendor/realme/samurai/proprietary/odm/lib/rfsa/adsp/libarcsoft_psn_hvx_5221_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_psn_hvx_5221_skel.so \
     vendor/realme/samurai/proprietary/odm/lib/rfsa/adsp/libc++.so.1:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libc++.so.1 \
     vendor/realme/samurai/proprietary/odm/lib/rfsa/adsp/libc++abi.so.1:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libc++abi.so.1 \
@@ -87,8 +88,10 @@ PRODUCT_COPY_FILES += \
     vendor/realme/samurai/proprietary/odm/lib64/libAncHumBokehPost.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncHumBokehPost.so \
     vendor/realme/samurai/proprietary/odm/lib64/libAncHumVideoBase.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncHumVideoBase.so \
     vendor/realme/samurai/proprietary/odm/lib64/libAncHumanDoubleExposure.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncHumanDoubleExposure.so \
+    vendor/realme/samurai/proprietary/odm/lib64/libOPLUS_SCPortrait.so:$(TARGET_COPY_OUT_ODM)/lib64/libOPLUS_SCPortrait.so \
     vendor/realme/samurai/proprietary/odm/lib64/libSNPE.so:$(TARGET_COPY_OUT_ODM)/lib64/libSNPE.so \
     vendor/realme/samurai/proprietary/odm/lib64/libSNPE_G.so:$(TARGET_COPY_OUT_ODM)/lib64/libSNPE_G.so \
+    vendor/realme/samurai/proprietary/odm/lib64/libTrafficMode.so:$(TARGET_COPY_OUT_ODM)/lib64/libTrafficMode.so \
     vendor/realme/samurai/proprietary/odm/lib64/libVDBayerHDR.so:$(TARGET_COPY_OUT_ODM)/lib64/libVDBayerHDR.so \
     vendor/realme/samurai/proprietary/odm/lib64/libVDBlurless.so:$(TARGET_COPY_OUT_ODM)/lib64/libVDBlurless.so \
     vendor/realme/samurai/proprietary/odm/lib64/libVDBlurlessAPI_v2.so:$(TARGET_COPY_OUT_ODM)/lib64/libVDBlurlessAPI_v2.so \
@@ -97,10 +100,17 @@ PRODUCT_COPY_FILES += \
     vendor/realme/samurai/proprietary/odm/lib64/libVDEyeEnhance.so:$(TARGET_COPY_OUT_ODM)/lib64/libVDEyeEnhance.so \
     vendor/realme/samurai/proprietary/odm/lib64/libVDSuperPhotoAPI.so:$(TARGET_COPY_OUT_ODM)/lib64/libVDSuperPhotoAPI.so \
     vendor/realme/samurai/proprietary/odm/lib64/libVDUpScale.so:$(TARGET_COPY_OUT_ODM)/lib64/libVDUpScale.so \
+    vendor/realme/samurai/proprietary/odm/lib64/libWaterMark.so:$(TARGET_COPY_OUT_ODM)/lib64/libWaterMark.so \
+    vendor/realme/samurai/proprietary/odm/lib64/libWaterMode.so:$(TARGET_COPY_OUT_ODM)/lib64/libWaterMode.so \
     vendor/realme/samurai/proprietary/odm/lib64/libXDocProcessSDK.so:$(TARGET_COPY_OUT_ODM)/lib64/libXDocProcessSDK.so \
     vendor/realme/samurai/proprietary/odm/lib64/lib_rectify.so:$(TARGET_COPY_OUT_ODM)/lib64/lib_rectify.so \
     vendor/realme/samurai/proprietary/odm/lib64/libalipay_factory.so:$(TARGET_COPY_OUT_ODM)/lib64/libalipay_factory.so \
     vendor/realme/samurai/proprietary/odm/lib64/libancbase_rt_bokeh.so:$(TARGET_COPY_OUT_ODM)/lib64/libancbase_rt_bokeh.so \
+    vendor/realme/samurai/proprietary/odm/lib64/libancbase_rt_retain.so:$(TARGET_COPY_OUT_ODM)/lib64/libancbase_rt_retain.so \
+    vendor/realme/samurai/proprietary/odm/lib64/libaps_frame_registration.so:$(TARGET_COPY_OUT_ODM)/lib64/libaps_frame_registration.so \
+    vendor/realme/samurai/proprietary/odm/lib64/libapsdarksight.so:$(TARGET_COPY_OUT_ODM)/lib64/libapsdarksight.so \
+    vendor/realme/samurai/proprietary/odm/lib64/libapsexif.so:$(TARGET_COPY_OUT_ODM)/lib64/libapsexif.so \
+    vendor/realme/samurai/proprietary/odm/lib64/libapsjpeg.so:$(TARGET_COPY_OUT_ODM)/lib64/libapsjpeg.so \
     vendor/realme/samurai/proprietary/vendor/lib64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_beautyshot.so \
     vendor/realme/samurai/proprietary/vendor/lib64/libarcsoft_distortion_correction.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_distortion_correction.so \
     vendor/realme/samurai/proprietary/vendor/lib64/libarcsoft_dualcam_bokeh_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_bokeh_api.so \
@@ -111,10 +121,12 @@ PRODUCT_COPY_FILES += \
     vendor/realme/samurai/proprietary/vendor/lib64/libarcsoft_hdr_couple_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_hdr_couple_api.so \
     vendor/realme/samurai/proprietary/vendor/lib64/libarcsoft_hdr_denoise_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_hdr_denoise_api.so \
     vendor/realme/samurai/proprietary/vendor/lib64/libarcsoft_hdrplus_hvx_5221_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_hdrplus_hvx_5221_stub.so \
+    vendor/realme/samurai/proprietary/vendor/lib64/libarcsoft_hdrplus_hvx_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_hdrplus_hvx_stub.so \
     vendor/realme/samurai/proprietary/vendor/lib64/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_high_dynamic_range.so \
     vendor/realme/samurai/proprietary/vendor/lib64/libarcsoft_high_dynamic_range_couple.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_high_dynamic_range_couple.so \
     vendor/realme/samurai/proprietary/vendor/lib64/libarcsoft_lensstaindetection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_lensstaindetection.so \
     vendor/realme/samurai/proprietary/vendor/lib64/libarcsoft_low_light_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_low_light_hdr.so \
+    vendor/realme/samurai/proprietary/vendor/lib64/libarcsoft_portraitSN_hvx_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_portraitSN_hvx_stub.so \
     vendor/realme/samurai/proprietary/vendor/lib64/libarcsoft_portrait_super_night_raw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_portrait_super_night_raw.so \
     vendor/realme/samurai/proprietary/vendor/lib64/libarcsoft_psn_hvx_5221_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_psn_hvx_5221_stub.so \
     vendor/realme/samurai/proprietary/vendor/lib64/libarcsoft_scbokeh_image.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_scbokeh_image.so \
@@ -133,10 +145,12 @@ PRODUCT_COPY_FILES += \
     vendor/realme/samurai/proprietary/odm/lib64/libsnpe_dsp_domains_v2.so:$(TARGET_COPY_OUT_ODM)/lib64/libsnpe_dsp_domains_v2.so \
     vendor/realme/samurai/proprietary/odm/lib64/libsnpe_loader.so:$(TARGET_COPY_OUT_ODM)/lib64/libsnpe_loader.so \
     vendor/realme/samurai/proprietary/odm/lib64/libsnpeml.so:$(TARGET_COPY_OUT_ODM)/lib64/libsnpeml.so \
+    vendor/realme/samurai/proprietary/odm/lib64/libstblur_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libstblur_api.so \
     vendor/realme/samurai/proprietary/odm/lib64/libstblur_capture_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libstblur_capture_api.so \
     vendor/realme/samurai/proprietary/odm/lib64/libstface_fd_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libstface_fd_api.so \
     vendor/realme/samurai/proprietary/odm/lib64/libsymphony-cpu.so:$(TARGET_COPY_OUT_ODM)/lib64/libsymphony-cpu.so \
     vendor/realme/samurai/proprietary/odm/lib64/libsymphonypower.so:$(TARGET_COPY_OUT_ODM)/lib64/libsymphonypower.so \
+    vendor/realme/samurai/proprietary/odm/lib64/libwatermark_photo.so:$(TARGET_COPY_OUT_ODM)/lib64/libwatermark_photo.so \
     vendor/realme/samurai/proprietary/odm/lib64/libwvhidl.so:$(TARGET_COPY_OUT_ODM)/lib64/libwvhidl.so \
     vendor/realme/samurai/proprietary/odm/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_ODM)/lib64/mediadrm/libwvdrmengine.so \
     vendor/realme/samurai/proprietary/odm/lib64/vendor.oplus.hardware.appradio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.appradio@1.0.so \
@@ -735,16 +749,15 @@ PRODUCT_COPY_FILES += \
     vendor/realme/samurai/proprietary/vendor/lib64/camera/com.qti.sensor.ov02a1b.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov02a1b.so \
     vendor/realme/samurai/proprietary/vendor/lib64/camera/com.qti.sensor.s5k3m5sx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5k3m5sx.so \
     vendor/realme/samurai/proprietary/vendor/lib64/camera/com.qti.sensor.s5kgw1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5kgw1.so \
+    vendor/realme/samurai/proprietary/vendor/lib64/camera/com.qti.sensormodule.qtech_imx319.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.qtech_imx319.bin \
     vendor/realme/samurai/proprietary/vendor/lib64/camera/com.qti.sensormodule.qtech_s5k3m5sx.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.qtech_s5k3m5sx.bin \
     vendor/realme/samurai/proprietary/vendor/lib64/camera/com.qti.sensormodule.qtech_s5kgw1.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.qtech_s5kgw1.bin \
-    vendor/realme/samurai/proprietary/vendor/lib64/camera/com.qti.sensormodule.shine_ov02a1b.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.shine_ov02a1b.bin \
     vendor/realme/samurai/proprietary/vendor/lib64/camera/com.qti.sensormodule.sunny_imx319.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.sunny_imx319.bin \
     vendor/realme/samurai/proprietary/vendor/lib64/camera/com.qti.sensormodule.sunny_imx471.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.sunny_imx471.bin \
     vendor/realme/samurai/proprietary/vendor/lib64/camera/com.qti.sensormodule.sunny_s5kgw1.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.sunny_s5kgw1.bin \
     vendor/realme/samurai/proprietary/vendor/lib64/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.default.bin \
     vendor/realme/samurai/proprietary/vendor/lib64/camera/com.qti.tuned.qtech_s5k3m5sx.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.qtech_s5k3m5sx.bin \
     vendor/realme/samurai/proprietary/vendor/lib64/camera/com.qti.tuned.qtech_s5kgw1.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.qtech_s5kgw1.bin \
-    vendor/realme/samurai/proprietary/vendor/lib64/camera/com.qti.tuned.shine_ov02a1b.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.shine_ov02a1b.bin \
     vendor/realme/samurai/proprietary/vendor/lib64/camera/com.qti.tuned.sunny_imx319.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.sunny_imx319.bin \
     vendor/realme/samurai/proprietary/vendor/lib64/camera/com.qti.tuned.sunny_imx471.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.sunny_imx471.bin \
     vendor/realme/samurai/proprietary/vendor/lib64/camera/com.qti.tuned.sunny_s5kgw1.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.sunny_s5kgw1.bin \
@@ -874,7 +887,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/samurai/proprietary/vendor/lib64/libStDrvInt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libStDrvInt.so \
     vendor/realme/samurai/proprietary/vendor/lib64/libVDPostureDetection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVDPostureDetection.so \
     vendor/realme/samurai/proprietary/vendor/lib64/libVkLayer_q3dtools.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVkLayer_q3dtools.so \
-    vendor/realme/samurai/proprietary/vendor/lib64/libWaterMark.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libWaterMark.so \
     vendor/realme/samurai/proprietary/vendor/lib64/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdb-fts.so \
     vendor/realme/samurai/proprietary/vendor/lib64/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbloader.so \
     vendor/realme/samurai/proprietary/vendor/lib64/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbrtac.so \
@@ -885,7 +897,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/samurai/proprietary/vendor/lib64/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsprpc.so \
     vendor/realme/samurai/proprietary/vendor/lib64/libaoa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaoa.so \
     vendor/realme/samurai/proprietary/vendor/lib64/libarcsoft_beauty_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_beauty_preview.so \
-    vendor/realme/samurai/proprietary/vendor/lib64/libarcsoft_time_convert.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_time_convert.so \
     vendor/realme/samurai/proprietary/vendor/lib64/libarm_proxy_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarm_proxy_skel.so \
     vendor/realme/samurai/proprietary/vendor/lib64/libasn1cper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1cper.so \
     vendor/realme/samurai/proprietary/vendor/lib64/libasn1crt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1crt.so \

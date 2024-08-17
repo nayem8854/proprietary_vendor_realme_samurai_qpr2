@@ -330,4 +330,3 @@ install_symlink {
 	installed_location: "lib64/libq3dtools_adreno.so",
 	symlink_target: "/vendor/lib64/egl/libq3dtools_adreno.so",
 }
-
