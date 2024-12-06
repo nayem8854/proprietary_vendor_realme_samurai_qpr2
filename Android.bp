@@ -187,6 +187,12 @@ dex_import {
 }
 
 dex_import {
+	name: "tcmclient",
+	owner: "realme",
+	jars: ["proprietary/system/framework/tcmclient.jar"],
+}
+
+dex_import {
 	name: "vendor.qti.ims.factory-V1.0-java",
 	owner: "realme",
 	jars: ["proprietary/system_ext/framework/vendor.qti.ims.factory-V1.0-java.jar"],
