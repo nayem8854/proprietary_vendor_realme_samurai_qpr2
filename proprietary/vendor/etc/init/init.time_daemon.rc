@@ -12,3 +12,5 @@ service time_daemon /vendor/bin/time_daemon
     user system
     group system
     capabilities SYS_TIME
+    disabled
+
