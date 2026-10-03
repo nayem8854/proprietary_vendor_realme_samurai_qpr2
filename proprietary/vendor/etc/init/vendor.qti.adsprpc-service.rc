@@ -35,8 +35,11 @@ service vendor.adsprpcd /vendor/bin/adsprpcd
    class main
    user system
    group media
+   setenv ADSP_LIBRARY_PATH "/vendor/lib/rfsa/adsp;/odm/lib/rfsa/adsp;/system/vendor/lib/rfsa/adsp;/vendor/dsp"
 
 service vendor.adsprpcd_audiopd /vendor/bin/adsprpcd audiopd
    class main
    user media
    group media
+   setenv ADSP_LIBRARY_PATH "/vendor/lib/rfsa/adsp;/odm/lib/rfsa/adsp;/system/vendor/lib/rfsa/adsp;/vendor/dsp"
+
